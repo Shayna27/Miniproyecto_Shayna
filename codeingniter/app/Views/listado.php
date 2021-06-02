@@ -23,9 +23,27 @@
            <label for="amaterno">Apellido Materno:</label>
            <input type="text" id="amaterno" name="amaterno" class="form-control" required>
            <button class="btn btn-primary form-control">Guardar</button>
+         
          </form>
        </div>
       </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="table table-resonsive">
+            <table class="table table-hover table-bordered">
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+                </tr>
+              
+              
+            </table>
+         </div>
+      </div>
+   </div>
     </div>
     
     <!-- Optional JavaScript -->
