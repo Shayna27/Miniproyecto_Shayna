@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Controllers;
 use App\Models\DatosModel;
 
@@ -12,7 +11,8 @@ class Miniproyecto extends BaseController
 		$data = [
 			
 			"datos" => $datos
-		]
+		];
 		return view('listado',$data);
 	}
 }
+?>
