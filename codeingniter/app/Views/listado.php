@@ -37,16 +37,16 @@
                 <th>Apellido materno</th>
                 <th>Editar</th>
                 <th>Eliminar</th>
-                </tr>
-              
+                </tr
+                
               <?php foreach($datos as $dato): ?>
               </tr>
                  <th><?php echo $dato->nombre ?></th>
                  <th><?php echo $dato->apellido_paterno ?></th>  
                  <th><?php echo $dato->apellido_materno ?></th>  
-                 <th> <a href="<?php base_url('/index.php/editar') ?<" class="btn btn-sm btn-warning">Editar</a> </th>  
-                 <th> <a href="<?php base_url('/index.php/eliminar') ?<" class="btn btn-sm btn-danger">Editar</a></th>  
-            
+                 <th> <a href="<?php base_url('/index.php/editar') ?>" class="btn btn-sm btn-warning">Editar</a> </th>  
+                 <th> <a href="<?php base_url('/index.php/eliminar') ?>" class="btn btn-sm btn-danger">Editar</a></th>  
+                
             </tr>
             <?php endforeach ?> 
               
