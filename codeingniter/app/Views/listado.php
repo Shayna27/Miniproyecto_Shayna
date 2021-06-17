@@ -71,4 +71,9 @@
       }else if(mensaje == '2'){
         swal(':D','Registro actualizado correctamente','success');
       }else if(mensaje == '3'){
-        swal('
+        swal(':(','No fue posible actualizar registro correctamente','error');
+      }else if(mensaje == '4'){  
+        (':D','Registro eliminado correctamente','success');
+      }else if(mensaje == '5'){    
+        swal(':(','No fue posible eliminar registro correctamente','error');
+      }
