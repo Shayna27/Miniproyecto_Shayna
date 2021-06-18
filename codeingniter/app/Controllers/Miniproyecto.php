@@ -27,7 +27,7 @@ class General extends BaseController{
 		
 	}
 	
-	public function insertar()}
+	public function insertar(){
             $gModel = new DatosModel();
             $data = [
 		"nombre" => $_POST['nombre'],
