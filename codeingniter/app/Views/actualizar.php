@@ -11,8 +11,24 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <div class ="container">
+      <h1>Actualizar registro</h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <form method="POST" action="<?php echo base_url('/index.php/actualizar') ?>">
+           <input type="hidden" name="id" id="id" value="<?php echo $id ?>">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" value="<?php echo $nombre?>" required>
+            <label for ="apaterno">Apellido paterno:</label>
+            <input type="text" name="apaterno" id="apaterno" class="form-control" value="<?php echo $apaterno ?>" required>
+            <label for ="amaterno">Apellido materno:</label>
+            <input type="text" name="amaterno" id="amaterno" class="form-control" value="<?php echo $amaterno ?>" required>
+            <button class="btn btn-warning form-control">Editar</button>
+          </form>
+         </div>
+        </div>
+      </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
