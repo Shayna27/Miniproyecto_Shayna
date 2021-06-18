@@ -31,8 +31,8 @@ class General extends BaseController{
             $gModel = new DatosModel();
             $data = [
 		"nombre" => $_POST['nombre'],
-		"a_paterno" $_POST['apaterno'],
-		"a_materno" $_POST['amaterno'],    
+		"a_paterno" => $_POST['apaterno'],
+		"a_materno" => $_POST['amaterno'],    
 	    ];
             $respuesta = $gModel->insertar($data);
        
@@ -51,8 +51,8 @@ class General extends BaseController{
 	   $gModel = new DatosModel();
 	   $data = [
 	       "nombre" => $_POST['nombre'],
-	       "a_paterno" $_POST['apaterno'],
-	       "a_materno" $_POST['amaterno'],
+	       "a_paterno" => $_POST['apaterno'],
+	       "a_materno" => $_POST['amaterno'],
 		   
 	   ];
 	       
