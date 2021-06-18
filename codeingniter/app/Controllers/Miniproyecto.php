@@ -2,7 +2,7 @@
 namespace App\Controllers;
 use App\Models\DatosModel;
 
-class General extends BaseController{
+class Miniproyecto extends BaseController{
 	
 	public function index(){
 		
