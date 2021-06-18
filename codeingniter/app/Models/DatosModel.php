@@ -31,7 +31,7 @@ class DatosModel extends Model{
 
   }
   
-  public function actualizar($data,$id){
+  public function eliminar($id){
       $gModel = $this->db->table('persona');
       $gModel->where($id);
       return $gModel->delete();
